@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/checkin"
+            android:icon="@drawable/checkin"
+            android:title="Check In" />
+        <item
+            android:id="@+id/checkout"
+            android:icon="@drawable/checkout"
+            android:title="Check Out" />
+        <item
+            android:id="@+id/missions"
+            android:icon="@drawable/missions"
+            android:title="Missions" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/permission"
+            android:icon="@drawable/permission"
+            android:title="Permissions" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/slack"
+                android:icon="@drawable/slack"
+                android:title="Slack" />
+            <item
+                android:id="@+id/trello"
+                android:icon="@drawable/trello"
+                android:title="Trello" />
+        </menu>
+    </item>
+
+</menu>

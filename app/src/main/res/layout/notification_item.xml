@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/notif_icon"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textViewTitle"
+            android:layout_gravity="center_horizontal"
+            android:hint="title :"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#0f0c0c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textViewBody"
+            android:layout_gravity="center_horizontal"
+            android:hint="body :"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#0f0c0c" />
+    </LinearLayout>
+
+</LinearLayout>
